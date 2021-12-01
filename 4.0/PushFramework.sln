@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProtocolFramework", "ProtocolFramework\ProtocolFramework.vcxproj", "{723BFD12-D31B-4C9D-9FA2-C7EA486031EB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PushFramework", "PushFramework\PushFramework.vcxproj", "{D208CCA6-2919-4B12-BF98-113AFB5B72C1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{723BFD12-D31B-4C9D-9FA2-C7EA486031EB} = {723BFD12-D31B-4C9D-9FA2-C7EA486031EB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs01
+		SccProjectUniqueName0 = ProtocolFramework\\ProtocolFramework.vcxproj
+		SccProjectName0 = ProtocolFramework
+		SccAuxPath0 = https://tfs.codeplex.com/tfs/tfs01
+		SccLocalPath0 = ProtocolFramework
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = PushFramework\\PushFramework.vcxproj
+		SccProjectName1 = PushFramework
+		SccAuxPath1 = https://tfs.codeplex.com/tfs/tfs01
+		SccLocalPath1 = PushFramework
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{723BFD12-D31B-4C9D-9FA2-C7EA486031EB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{723BFD12-D31B-4C9D-9FA2-C7EA486031EB}.Debug|Win32.Build.0 = Debug|Win32
+		{723BFD12-D31B-4C9D-9FA2-C7EA486031EB}.Debug|x64.ActiveCfg = Debug|Win32
+		{723BFD12-D31B-4C9D-9FA2-C7EA486031EB}.Release|Win32.ActiveCfg = Release|Win32
+		{723BFD12-D31B-4C9D-9FA2-C7EA486031EB}.Release|Win32.Build.0 = Release|Win32
+		{723BFD12-D31B-4C9D-9FA2-C7EA486031EB}.Release|x64.ActiveCfg = Release|Win32
+		{D208CCA6-2919-4B12-BF98-113AFB5B72C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D208CCA6-2919-4B12-BF98-113AFB5B72C1}.Debug|Win32.Build.0 = Debug|Win32
+		{D208CCA6-2919-4B12-BF98-113AFB5B72C1}.Debug|x64.ActiveCfg = Debug|x64
+		{D208CCA6-2919-4B12-BF98-113AFB5B72C1}.Debug|x64.Build.0 = Debug|x64
+		{D208CCA6-2919-4B12-BF98-113AFB5B72C1}.Release|Win32.ActiveCfg = Release|Win32
+		{D208CCA6-2919-4B12-BF98-113AFB5B72C1}.Release|Win32.Build.0 = Release|Win32
+		{D208CCA6-2919-4B12-BF98-113AFB5B72C1}.Release|x64.ActiveCfg = Release|x64
+		{D208CCA6-2919-4B12-BF98-113AFB5B72C1}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

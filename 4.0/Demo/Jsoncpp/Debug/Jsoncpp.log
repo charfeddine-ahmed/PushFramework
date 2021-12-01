@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
+  json_writer.cpp
+  json_value.cpp
+  json_reader.cpp
+  Generating Code...
+  Jsoncpp.vcxproj -> D:\Tools\CodePlex\pushframework\4.0\Demo\Jsoncpp\..\..\output\Debug\Jsoncpp.lib

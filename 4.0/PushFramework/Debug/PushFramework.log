@@ -1,0 +1,25 @@
+﻿cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
+cl : Command line warning D9030: '/Yc' is incompatible with multiprocessing; ignoring /MP switch
+  ServerStats.cpp
+  ServerImpl.cpp
+  PhysicalConnection.cpp
+d:\tools\codeplex\pushframework\4.0\pushframework\private\physicalconnection.cpp(67): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+          c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868) : see declaration of 'inet_ntoa'
+  LogicalConnectionImpl.cpp
+  Dispatcher.cpp
+  DemuxImpl_Win.cpp
+  ClientFactory_Win.cpp
+  ClientFactory.cpp
+d:\tools\codeplex\pushframework\4.0\pushframework\private\clientfactory.cpp(163): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+          c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850) : see declaration of 'inet_addr'
+d:\tools\codeplex\pushframework\4.0\pushframework\private\clientfactory.cpp(164): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+          c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850) : see declaration of 'inet_addr'
+  BroadcastQueueGroupContext.cpp
+d:\tools\codeplex\pushframework\4.0\pushframework\private\broadcastqueuegroupcontext.cpp(101): error C2059: syntax error : '}'
+d:\tools\codeplex\pushframework\4.0\pushframework\private\broadcastqueuegroupcontext.cpp(101): error C2143: syntax error : missing ';' before '}'
+d:\tools\codeplex\pushframework\4.0\pushframework\private\broadcastqueuegroupcontext.cpp(104): error C2039: 'pContext' : is not a member of 'PushFramework::BroadcastQueueContext'
+          d:\tools\codeplex\pushframework\4.0\pushframework\private\broadcastqueuecontext.h(11) : see declaration of 'PushFramework::BroadcastQueueContext'
+          d:\tools\codeplex\pushframework\4.0\pushframework\private\broadcastqueuecontext.h(11) : see declaration of 'PushFramework::BroadcastQueueContext'
+  BroadcastQueueContext.cpp
+  BroadcastQueue.cpp
+  BroadcastManager.cpp

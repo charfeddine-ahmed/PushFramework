@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  JsonSerializer.cpp
+     Creating library ..\..\output\Debug\JsonSerializer.lib and object ..\..\output\Debug\JsonSerializer.exp
+  JsonSerializer.vcxproj -> D:\Tools\CodePlex\pushframework\4.0\Demo\JsonSerializer\..\..\output\Debug\JsonSerializer.dll

@@ -1,0 +1,26 @@
+﻿  stdafx.cpp
+cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
+  sha1.cpp
+  base64.cpp
+  Generating Code...
+  dllmain.cpp
+cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
+  WebsocketProtocol.cpp
+d:\tools\codeplex\pushframework\4.0\demo\websocketprotocol\websocketprotocol.cpp(33): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+d:\tools\codeplex\pushframework\4.0\demo\websocketprotocol\websocketprotocol.cpp(139): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+d:\tools\codeplex\pushframework\4.0\demo\websocketprotocol\websocketprotocol.cpp(196): warning C4244: '+=' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+d:\tools\codeplex\pushframework\4.0\demo\websocketprotocol\websocketprotocol.cpp(222): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+d:\tools\codeplex\pushframework\4.0\demo\websocketprotocol\websocketprotocol.cpp(253): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+d:\tools\codeplex\pushframework\4.0\demo\websocketprotocol\websocketprotocol.cpp(356): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'int', possible loss of data
+d:\tools\codeplex\pushframework\4.0\demo\websocketprotocol\websocketprotocol.cpp(385): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'char', possible loss of data
+d:\tools\codeplex\pushframework\4.0\demo\websocketprotocol\websocketprotocol.cpp(427): warning C4309: '=' : truncation of constant value
+d:\tools\codeplex\pushframework\4.0\demo\websocketprotocol\websocketprotocol.cpp(428): warning C4309: '=' : truncation of constant value
+d:\tools\codeplex\pushframework\4.0\demo\websocketprotocol\websocketprotocol.cpp(429): warning C4309: '=' : truncation of constant value
+d:\tools\codeplex\pushframework\4.0\demo\websocketprotocol\websocketprotocol.cpp(430): warning C4309: '=' : truncation of constant value
+d:\tools\codeplex\pushframework\4.0\demo\websocketprotocol\websocketprotocol.cpp(455): warning C4018: '<' : signed/unsigned mismatch
+  WebsocketHandshakeMessage.cpp
+  WebsocketControlMessage.cpp
+  WebsocketContext.cpp
+  Generating Code...
+     Creating library ..\..\output\Debug\WebsocketProtocol.lib and object ..\..\output\Debug\WebsocketProtocol.exp
+  WebsocketProtocol.vcxproj -> D:\Tools\CodePlex\pushframework\4.0\Demo\WebsocketProtocol\..\..\output\Debug\WebsocketProtocol.dll

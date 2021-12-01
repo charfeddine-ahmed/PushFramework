@@ -1,0 +1,168 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoClients", "DemoClients\DemoClients.vcxproj", "{E1BDAEB5-44E7-479C-A652-7190A9373C1F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FD07CF50-B382-4973-A1B9-5FABCC2F8CA0} = {FD07CF50-B382-4973-A1B9-5FABCC2F8CA0}
+		{0B43A670-DBC6-4BE8-814C-50E14B07653F} = {0B43A670-DBC6-4BE8-814C-50E14B07653F}
+		{38421E7C-A0E2-4098-AEB3-A543CF72D759} = {38421E7C-A0E2-4098-AEB3-A543CF72D759}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoServer", "DemoServer\DemoServer.vcxproj", "{0CAF91F9-234C-45B1-9E88-29C590847367}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FD07CF50-B382-4973-A1B9-5FABCC2F8CA0} = {FD07CF50-B382-4973-A1B9-5FABCC2F8CA0}
+		{0B43A670-DBC6-4BE8-814C-50E14B07653F} = {0B43A670-DBC6-4BE8-814C-50E14B07653F}
+		{D208CCA6-2919-4B12-BF98-113AFB5B72C1} = {D208CCA6-2919-4B12-BF98-113AFB5B72C1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Jsoncpp", "Jsoncpp\Jsoncpp.vcxproj", "{6BA7B280-0F4E-4B4B-8719-5A47E27CF4B7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JsonSerializer", "JsonSerializer\JsonSerializer.vcxproj", "{FD07CF50-B382-4973-A1B9-5FABCC2F8CA0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{723BFD12-D31B-4C9D-9FA2-C7EA486031EB} = {723BFD12-D31B-4C9D-9FA2-C7EA486031EB}
+		{6BA7B280-0F4E-4B4B-8719-5A47E27CF4B7} = {6BA7B280-0F4E-4B4B-8719-5A47E27CF4B7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleProtocol", "SimpleProtocol\SimpleProtocol.vcxproj", "{0B43A670-DBC6-4BE8-814C-50E14B07653F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{723BFD12-D31B-4C9D-9FA2-C7EA486031EB} = {723BFD12-D31B-4C9D-9FA2-C7EA486031EB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCPSocket", "tcpsocket\TCPSocket.vcxproj", "{38421E7C-A0E2-4098-AEB3-A543CF72D759}"
+	ProjectSection(ProjectDependencies) = postProject
+		{723BFD12-D31B-4C9D-9FA2-C7EA486031EB} = {723BFD12-D31B-4C9D-9FA2-C7EA486031EB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WebsocketProtocol", "WebsocketProtocol\WebsocketProtocol.vcxproj", "{F464B238-884C-4ACF-B8EF-25F4A28F2FA4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{723BFD12-D31B-4C9D-9FA2-C7EA486031EB} = {723BFD12-D31B-4C9D-9FA2-C7EA486031EB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProtocolFramework", "..\ProtocolFramework\ProtocolFramework.vcxproj", "{723BFD12-D31B-4C9D-9FA2-C7EA486031EB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PushFramework", "..\PushFramework\PushFramework.vcxproj", "{D208CCA6-2919-4B12-BF98-113AFB5B72C1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{723BFD12-D31B-4C9D-9FA2-C7EA486031EB} = {723BFD12-D31B-4C9D-9FA2-C7EA486031EB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs01
+		SccProjectUniqueName0 = DemoClients\\DemoClients.vcxproj
+		SccProjectName0 = DemoClients
+		SccAuxPath0 = https://tfs.codeplex.com/tfs/tfs01
+		SccLocalPath0 = DemoClients
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = DemoServer\\DemoServer.vcxproj
+		SccProjectName1 = DemoServer
+		SccAuxPath1 = https://tfs.codeplex.com/tfs/tfs01
+		SccLocalPath1 = DemoServer
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = Jsoncpp\\Jsoncpp.vcxproj
+		SccProjectName2 = Jsoncpp
+		SccAuxPath2 = https://tfs.codeplex.com/tfs/tfs01
+		SccLocalPath2 = Jsoncpp
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = JsonSerializer\\JsonSerializer.vcxproj
+		SccProjectName3 = JsonSerializer
+		SccAuxPath3 = https://tfs.codeplex.com/tfs/tfs01
+		SccLocalPath3 = JsonSerializer
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName4 = SimpleProtocol\\SimpleProtocol.vcxproj
+		SccProjectName4 = SimpleProtocol
+		SccAuxPath4 = https://tfs.codeplex.com/tfs/tfs01
+		SccLocalPath4 = SimpleProtocol
+		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName5 = tcpsocket\\TCPSocket.vcxproj
+		SccProjectName5 = tcpsocket
+		SccAuxPath5 = https://tfs.codeplex.com/tfs/tfs01
+		SccLocalPath5 = tcpsocket
+		SccProvider5 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName6 = WebsocketProtocol\\WebsocketProtocol.vcxproj
+		SccProjectName6 = WebsocketProtocol
+		SccAuxPath6 = https://tfs.codeplex.com/tfs/tfs01
+		SccLocalPath6 = WebsocketProtocol
+		SccProvider6 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName7 = ..\\ProtocolFramework\\ProtocolFramework.vcxproj
+		SccProjectName7 = ../ProtocolFramework
+		SccAuxPath7 = https://tfs.codeplex.com/tfs/tfs01
+		SccLocalPath7 = ..\\ProtocolFramework
+		SccProvider7 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName8 = ..\\PushFramework\\PushFramework.vcxproj
+		SccProjectName8 = ../PushFramework
+		SccAuxPath8 = https://tfs.codeplex.com/tfs/tfs01
+		SccLocalPath8 = ..\\PushFramework
+		SccProvider8 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1BDAEB5-44E7-479C-A652-7190A9373C1F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E1BDAEB5-44E7-479C-A652-7190A9373C1F}.Debug|Win32.Build.0 = Debug|Win32
+		{E1BDAEB5-44E7-479C-A652-7190A9373C1F}.Debug|x64.ActiveCfg = Debug|Win32
+		{E1BDAEB5-44E7-479C-A652-7190A9373C1F}.Release|Win32.ActiveCfg = Release|Win32
+		{E1BDAEB5-44E7-479C-A652-7190A9373C1F}.Release|Win32.Build.0 = Release|Win32
+		{E1BDAEB5-44E7-479C-A652-7190A9373C1F}.Release|x64.ActiveCfg = Release|Win32
+		{0CAF91F9-234C-45B1-9E88-29C590847367}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0CAF91F9-234C-45B1-9E88-29C590847367}.Debug|Win32.Build.0 = Debug|Win32
+		{0CAF91F9-234C-45B1-9E88-29C590847367}.Debug|x64.ActiveCfg = Debug|Win32
+		{0CAF91F9-234C-45B1-9E88-29C590847367}.Release|Win32.ActiveCfg = Release|Win32
+		{0CAF91F9-234C-45B1-9E88-29C590847367}.Release|Win32.Build.0 = Release|Win32
+		{0CAF91F9-234C-45B1-9E88-29C590847367}.Release|x64.ActiveCfg = Release|Win32
+		{6BA7B280-0F4E-4B4B-8719-5A47E27CF4B7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6BA7B280-0F4E-4B4B-8719-5A47E27CF4B7}.Debug|Win32.Build.0 = Debug|Win32
+		{6BA7B280-0F4E-4B4B-8719-5A47E27CF4B7}.Debug|x64.ActiveCfg = Debug|Win32
+		{6BA7B280-0F4E-4B4B-8719-5A47E27CF4B7}.Release|Win32.ActiveCfg = Release|Win32
+		{6BA7B280-0F4E-4B4B-8719-5A47E27CF4B7}.Release|Win32.Build.0 = Release|Win32
+		{6BA7B280-0F4E-4B4B-8719-5A47E27CF4B7}.Release|x64.ActiveCfg = Release|Win32
+		{FD07CF50-B382-4973-A1B9-5FABCC2F8CA0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FD07CF50-B382-4973-A1B9-5FABCC2F8CA0}.Debug|Win32.Build.0 = Debug|Win32
+		{FD07CF50-B382-4973-A1B9-5FABCC2F8CA0}.Debug|x64.ActiveCfg = Debug|Win32
+		{FD07CF50-B382-4973-A1B9-5FABCC2F8CA0}.Release|Win32.ActiveCfg = Release|Win32
+		{FD07CF50-B382-4973-A1B9-5FABCC2F8CA0}.Release|Win32.Build.0 = Release|Win32
+		{FD07CF50-B382-4973-A1B9-5FABCC2F8CA0}.Release|x64.ActiveCfg = Release|Win32
+		{0B43A670-DBC6-4BE8-814C-50E14B07653F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0B43A670-DBC6-4BE8-814C-50E14B07653F}.Debug|Win32.Build.0 = Debug|Win32
+		{0B43A670-DBC6-4BE8-814C-50E14B07653F}.Debug|x64.ActiveCfg = Debug|Win32
+		{0B43A670-DBC6-4BE8-814C-50E14B07653F}.Release|Win32.ActiveCfg = Release|Win32
+		{0B43A670-DBC6-4BE8-814C-50E14B07653F}.Release|Win32.Build.0 = Release|Win32
+		{0B43A670-DBC6-4BE8-814C-50E14B07653F}.Release|x64.ActiveCfg = Release|Win32
+		{38421E7C-A0E2-4098-AEB3-A543CF72D759}.Debug|Win32.ActiveCfg = Debug|Win32
+		{38421E7C-A0E2-4098-AEB3-A543CF72D759}.Debug|Win32.Build.0 = Debug|Win32
+		{38421E7C-A0E2-4098-AEB3-A543CF72D759}.Debug|x64.ActiveCfg = Debug|Win32
+		{38421E7C-A0E2-4098-AEB3-A543CF72D759}.Release|Win32.ActiveCfg = Release|Win32
+		{38421E7C-A0E2-4098-AEB3-A543CF72D759}.Release|Win32.Build.0 = Release|Win32
+		{38421E7C-A0E2-4098-AEB3-A543CF72D759}.Release|x64.ActiveCfg = Release|Win32
+		{F464B238-884C-4ACF-B8EF-25F4A28F2FA4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F464B238-884C-4ACF-B8EF-25F4A28F2FA4}.Debug|Win32.Build.0 = Debug|Win32
+		{F464B238-884C-4ACF-B8EF-25F4A28F2FA4}.Debug|x64.ActiveCfg = Debug|Win32
+		{F464B238-884C-4ACF-B8EF-25F4A28F2FA4}.Release|Win32.ActiveCfg = Release|Win32
+		{F464B238-884C-4ACF-B8EF-25F4A28F2FA4}.Release|Win32.Build.0 = Release|Win32
+		{F464B238-884C-4ACF-B8EF-25F4A28F2FA4}.Release|x64.ActiveCfg = Release|Win32
+		{723BFD12-D31B-4C9D-9FA2-C7EA486031EB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{723BFD12-D31B-4C9D-9FA2-C7EA486031EB}.Debug|Win32.Build.0 = Debug|Win32
+		{723BFD12-D31B-4C9D-9FA2-C7EA486031EB}.Debug|x64.ActiveCfg = Debug|Win32
+		{723BFD12-D31B-4C9D-9FA2-C7EA486031EB}.Release|Win32.ActiveCfg = Release|Win32
+		{723BFD12-D31B-4C9D-9FA2-C7EA486031EB}.Release|Win32.Build.0 = Release|Win32
+		{723BFD12-D31B-4C9D-9FA2-C7EA486031EB}.Release|x64.ActiveCfg = Release|Win32
+		{D208CCA6-2919-4B12-BF98-113AFB5B72C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D208CCA6-2919-4B12-BF98-113AFB5B72C1}.Debug|Win32.Build.0 = Debug|Win32
+		{D208CCA6-2919-4B12-BF98-113AFB5B72C1}.Debug|x64.ActiveCfg = Debug|x64
+		{D208CCA6-2919-4B12-BF98-113AFB5B72C1}.Debug|x64.Build.0 = Debug|x64
+		{D208CCA6-2919-4B12-BF98-113AFB5B72C1}.Release|Win32.ActiveCfg = Release|Win32
+		{D208CCA6-2919-4B12-BF98-113AFB5B72C1}.Release|Win32.Build.0 = Release|Win32
+		{D208CCA6-2919-4B12-BF98-113AFB5B72C1}.Release|x64.ActiveCfg = Release|x64
+		{D208CCA6-2919-4B12-BF98-113AFB5B72C1}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
